@@ -13,14 +13,19 @@ This is a simple Streamlit-based chatbot application that uses Google's Gemini P
 
 1. Clone the repository:
 ```bash
-git clone <your-repository-url>
-cd <repository-directory>
+git clone https://github.com/AhmedAyman4/GeminiChatbot
+cd GeminiChatbot
 ```
 
 2. Create a virtual environment (optional but recommended):
 ```bash
+# For Windows
 python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+venv\Scripts\activate
+
+# For macOS/Linux
+# python -m venv venv
+# source venv/bin/activate
 ```
 
 3. Install required dependencies:
